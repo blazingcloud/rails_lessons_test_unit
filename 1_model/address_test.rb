@@ -1,5 +1,5 @@
-require 'test/unit'
-class AddressTest < Test::Unit::TestCase
+require 'test_helper'
+class AddressTest < ActiveSupport::TestCase
   def setup
     @valid_attributes = {
       :house_number => 1,
